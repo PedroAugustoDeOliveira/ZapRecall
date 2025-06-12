@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap');
+
+.Title{
+    display: flex;
+    align-items: center;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #ffffff;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.Title img{
+    width: 52px;
+    height: 60px;
+}
+
+.Flashcards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+    height: 667px;
+}
+
+.continer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}    
+
+.card{
+    width: 300px;
+    min-height: 65px;
+    height: auto;
+    background-color: #ffffff;
+    font-family: "Recursive", sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-family: "Recursive", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.card ion-icon{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Recursive", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #ffffff;
+    width: 375px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+
+.card.no-remember { 
+    background-color: #FF3030; 
+    width: 300px;
+}  
+.card.almost { 
+    background-color: #FF922E; 
+    width: 300px;
+}  
+.card.zap { 
+    background-color: #2FBE34; 
+    width: 300px;
+}  
+

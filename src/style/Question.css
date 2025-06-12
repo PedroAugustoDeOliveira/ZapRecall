@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap');
+
+.question-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.question{
+    width: 299px;
+    height: 131px;
+    background-color: #FFFFD4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    position: relative;
+}
+.question h1{
+    font-family: "Recursive", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 15px;
+}
+
+.question img{
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    top : 100px;
+    right: 10px;
+}

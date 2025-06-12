@@ -21,3 +21,16 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# ignore src
+
+/src/reportWebVitals.js
+/src/setupTests.js
+/src/App.test.js
+/src/logo.svg
+/src/index.css
+
+#ignore public
+
+/public/manifest.json
+/public/robots.txt
